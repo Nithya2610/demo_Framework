@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-06T07:38:38 IST" name="Suite" finished-at="2025-02-06T07:38:38 IST" duration-ms="66">
+    <groups>
+      <group name="smoke test">
+        <method signature="Sample2Test.contactdeleted()[pri:0, instance:create_org.Sample2Test@198b6731]" name="contactdeleted" class="create_org.Sample2Test"/>
+        <method signature="Sample2Test.contactmodified()[pri:0, instance:create_org.Sample2Test@198b6731]" name="contactmodified" class="create_org.Sample2Test"/>
+        <method signature="SampleTest.CreateContact()[pri:0, instance:create_org.SampleTest@bcec361]" name="CreateContact" class="create_org.SampleTest"/>
+      </group> <!-- smoke test -->
+    </groups>
+    <test started-at="2025-02-06T07:38:38 IST" name="Test" finished-at="2025-02-06T07:38:38 IST" duration-ms="66">
+      <class name="create_org.SampleTest">
+        <test-method signature="CreateContact()[pri:0, instance:create_org.SampleTest@bcec361]" started-at="2025-02-06T07:38:38 IST" name="CreateContact" finished-at="2025-02-06T07:38:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+      </class> <!-- create_org.SampleTest -->
+      <class name="create_org.Sample2Test">
+        <test-method signature="contactdeleted()[pri:0, instance:create_org.Sample2Test@198b6731]" started-at="2025-02-06T07:38:38 IST" name="contactdeleted" finished-at="2025-02-06T07:38:38 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactdeleted -->
+        <test-method signature="contactmodified()[pri:0, instance:create_org.Sample2Test@198b6731]" started-at="2025-02-06T07:38:38 IST" name="contactmodified" finished-at="2025-02-06T07:38:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactmodified -->
+      </class> <!-- create_org.Sample2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
