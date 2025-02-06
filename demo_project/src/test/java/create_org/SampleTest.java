@@ -7,5 +7,6 @@ public class SampleTest {
 	public void CreateContact()
 	{
 		System.out.println("contact created for qspider login ");
+		System.out.println("hi");
 	}
 }
